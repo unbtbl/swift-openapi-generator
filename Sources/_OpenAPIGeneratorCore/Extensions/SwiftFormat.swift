@@ -42,7 +42,7 @@ extension String {
                 print(
                     """
                     ===
-                    Formatting the following code produced diagnostic at location \(sourceLocation.debugDescription) (see end):
+                    Formatting the following code produced diagnostic at location \(String(describing: sourceLocation)) (see end):
                     ---
                     \(self.withLineNumberPrefixes)
                     ---

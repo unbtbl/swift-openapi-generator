@@ -1,4 +1,4 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
 //===----------------------------------------------------------------------===//
 //
 // This source file is part of the SwiftOpenAPIGenerator open source project
@@ -55,13 +55,13 @@ let package = Package(
         // Generate Swift code
         .package(
             url: "https://github.com/apple/swift-syntax.git",
-            from: "508.0.1"
+            from: "509.0.0"
         ),
 
         // Format Swift code
         .package(
             url: "https://github.com/apple/swift-format.git",
-            from: "508.0.1"
+            from: "509.0.0"
         ),
 
         // General algorithms
